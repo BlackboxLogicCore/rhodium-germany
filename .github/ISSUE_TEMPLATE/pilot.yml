@@ -1,0 +1,56 @@
+name: Rhodium Pilot anfragen
+description: Messbaren technischen Pilot für Rhodium Germany Box anfragen
+title: "[PILOT] "
+labels:
+  - pilot
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Rhodium führt einen reproduzierbaren technischen Pilot durch:
+        Eingangsdaten -> definierter Test -> gemessenes Ergebnis.
+
+  - type: input
+    id: company
+    attributes:
+      label: Unternehmen
+    validations:
+      required: true
+
+  - type: input
+    id: contact
+    attributes:
+      label: Ansprechpartner
+    validations:
+      required: true
+
+  - type: dropdown
+    id: usecase
+    attributes:
+      label: Einsatzbereich
+      options:
+        - Backup / Storage
+        - Hosting / Cloud
+        - Finanz-IT
+        - SaaS / Datenplattform
+        - E-Commerce
+        - Resilience / Recovery
+        - Sonstiges
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Was soll gemessen werden?
+      placeholder: Beschreiben Sie Datenvolumen, Verarbeitung, Recovery, Integrität oder Kostenproblem.
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: contact_permission
+    attributes:
+      label: Kontakt
+      options:
+        - label: Ich möchte von Rhodium zu dieser Pilot-Anfrage kontaktiert werden.
+          required: true
