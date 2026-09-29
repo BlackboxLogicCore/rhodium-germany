@@ -9,6 +9,16 @@ The internal core, research environment, signing authority and release system ar
 **Website:** https://rhodium-germany.de  
 **Licensing contact:** info@rhodium-germany.tech
 
+## Launch-partner track
+
+Rhodium Germany is opening a small number of parallel enterprise launch-partner tracks. Rights remain separated by **territory × field of use × technical deployment scope**; no partner receives the protected core by default.
+
+Partner qualification, technical questions, Black-Box test authorization and commercial pre-qualification are handled **in writing**. Initial phone, video or in-person meetings are not required.
+
+- Partner / bidding page: https://rhodium-germany.de/pages/team-rhodium-germany-partner-2026
+- Black-Box test: https://rhodium-germany.de/pages/grosser-gegentest
+- Contact: info@rhodium-germany.tech
+
 ---
 
 ## What Rhodium is
